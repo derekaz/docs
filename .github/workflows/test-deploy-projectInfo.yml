@@ -1,9 +1,17 @@
 name: Test deployment - projectInfo
 
 on:
-  # repository_dispatch:
-  #   types:
-  #     - test-rebuild-docs-site
+  workflow_dispatch:
+    # inputs:
+    #   logLevel:
+    #     description: 'Log level'     
+    #     required: true
+    #     default: 'warning'
+      tags:
+        description: 'Manual trigger'  
+  repository_dispatch:
+    types:
+      - test-rebuild-docs-site
   pull_request:
     branches:
       - main
