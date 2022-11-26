@@ -1,9 +1,9 @@
 name: Test deployment - projectInfo
 
 on:
-  repository_dispatch:
-    types:
-      - test-rebuild-docs-site
+  # repository_dispatch:
+  #   types:
+  #     - test-rebuild-docs-site
   pull_request:
     branches:
       - main
