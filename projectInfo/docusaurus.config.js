@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'DerekAZ\'s Modules',
   url: 'https://derekaz.github.io',
-  baseUrl: '/docs/projectInfo/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
