@@ -1,6 +1,9 @@
 name: Deploy to GitHub Pages - projectInfo
 
 on:
+  repository_dispatch:
+    types:
+      - rebuild-docs-site
   push:
     branches:
       - main
