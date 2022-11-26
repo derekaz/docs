@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-action.json": [
+            "git:/c%3A/Users/derek/source/repos/docs/projectInfo/.github/workflows/test-deploy.yml?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5Cderek%5C%5Csource%5C%5Crepos%5C%5Cdocs%5C%5CprojectInfo%5C%5C.github%5C%5Cworkflows%5C%5Ctest-deploy.yml%22%2C%22ref%22%3A%22%22%7D"
+        ],
+        "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/derek/source/repos/docs/projectInfo/.github/workflows/deploy.yml"
+    }
+}
