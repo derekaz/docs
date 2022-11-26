@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types:
-      - rebuild-site
+      - rebuild-docs-site
   push:
     branches: 
       - main
