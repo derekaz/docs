@@ -7,8 +7,8 @@ on:
     #     description: 'Log level'     
     #     required: true
     #     default: 'warning'
-      tags:
-        description: 'Manual trigger'  
+    tags:
+      description: 'Manual trigger'  
   repository_dispatch:
     types:
       - test-rebuild-docs-site

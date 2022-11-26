@@ -2,13 +2,13 @@ name: Deploy to GitHub Pages - projectInfo
 
 on:
   workflow_dispatch:
-    # inputs:
-      # logLevel:
-        # description: 'Log level'     
+    inputs:
+      logLevel:
+        description: 'Log level'     
         # required: true
         # default: 'warning'
-      tags:
-        description: 'Manual trigger'  
+    tags:
+      description: 'Manual trigger'  
   # repository_dispatch:
   #   types:
   #     - rebuild-docs-site
