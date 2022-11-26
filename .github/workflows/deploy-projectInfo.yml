@@ -2,10 +2,15 @@ name: Deploy to GitHub Pages - projectInfo
 
 on:
   workflow_dispatch:
-  # repository_dispatch:
-  #   types:
-  #     - rebuild-docs-site
+  repository_dispatch:
+    types:
+      - rebuild-site
   push:
+    branches: 
+      - main
+    paths:
+      - 'projectInfo/**'
+  pull_request:
     branches:
       - main
     paths:
