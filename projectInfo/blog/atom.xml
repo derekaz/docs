@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://derekaz.github.io/docs/projectInfo/blog</id>
-    <title>My Site Blog</title>
+    <title>DerekAZ's Module Info Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://derekaz.github.io/docs/projectInfo/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>DerekAZ's Module Info Blog</subtitle>
     <icon>https://derekaz.github.io/docs/projectInfo/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
